@@ -1,0 +1,77 @@
+* {
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03183F;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    padding: 0px 10px 10px 10px;
+    box-shadow: -3px -3px 5px #121F6A, 3px 3px 5px #000;
+    
+}
+
+.textColor {
+    color: #FFF;
+    letter-spacing: 1px;
+    background: #8360c3; 
+    background: linear-gradient(to right, #ff4b1f, #1fddff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textColor-1 {
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+.timeClock {
+    width: 290px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    font-size: 4.5rem;
+}
+
+.side-menu{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.side-menu :nth-of-type(1) {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.side-menu :nth-of-type(2) {
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+}
+
+.day {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+
+.day span {
+    font-size: .9rem;
+    opacity: 0.4;
+    font-weight: 600px;
+}

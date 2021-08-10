@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    position: absolute;
+    background-color: #808080;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 360px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: 2px solid transparent;
+    background: #808080;
+    box-shadow: -3px -3px 5px #ffffff , 3px 3px 15px #000000; 
+}
+
+
+
+
+.day {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.time {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
