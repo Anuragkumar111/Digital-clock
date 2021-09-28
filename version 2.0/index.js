@@ -31,7 +31,7 @@ function setDate(){
     curr_date = Modify(curr_date);
 
     date.innerHTML = months[mon] + " " + curr_date + ", " + year; 
-    date.style.padding = '65px';
+    date.style.padding = '50px';
 }
 
 function Modify(k){
